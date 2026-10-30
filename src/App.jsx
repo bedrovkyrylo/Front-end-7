@@ -16,13 +16,14 @@ const education = `Освіта: 1-6 клас Гімназія "Домінант
 const about = `Львів — місто на заході України, адміністративний центр Львівської області, Львівського району, Львівської міської громади, національно-культурний та освітньо-науковий осередок країни. Великий промисловий центр і транспортний вузол, вважається сучасною столицею Галичини та найбільшим містом на заході країни.`;
 
 const base = import.meta.env.BASE_URL;
+
 const goods = [
-  { id: 1, name: "Діффенбахія",  price: 650, photo: "/public/dieffenbachia-houseplant.jpg" },
-  { id: 2, name: "Гойя",         price: 480, photo: "/public/hoya-wax-plant.jpg" },
-  { id: 3, name: "Філодендрон",  price: 520, photo: "/public/Philodendron.jpg" },
-  { id: 4, name: "Аглонема",     price: 590, photo: "/public/potted-aglaonema-silver-bay.jpg" },
-  { id: 5, name: "Сингоніум",    price: 350, photo: "/public/syngonium-podophyllum.jpg" },
-  { id: 6, name: "Замія (ZZ)",   price: 750, photo: "/public/zz-plant.jpg" },
+  { id: 1, name: "Діффенбахія", price: 650, photo: base + "dieffenbachia-houseplant.jpg" },
+  { id: 2, name: "Гойя",        price: 480, photo: base + "hoya-wax-plant.jpg" },
+  { id: 3, name: "Філодендрон", price: 520, photo: base + "Philodendron.jpg" },
+  { id: 4, name: "Аглонема",    price: 590, photo: base + "potted-aglaonema-silver-bay.jpg" },
+  { id: 5, name: "Сингоніум",   price: 350, photo: base + "syngonium-podophyllum.jpg" },
+  { id: 6, name: "Замія (ZZ)",  price: 750, photo: base + "zz-plant.jpg" },
 ];
 
 function App() {
