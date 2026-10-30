@@ -62,7 +62,7 @@ class Content extends Component {
         <div>
           {this.state.showImage && (
             <Image
-              src="/Lviv.png"
+              src={import.meta.env.BASE_URL + "Lviv.png"}
               alt="Львів"
               href="https://city-adm.lviv.ua/"
               width={this.state.width}
